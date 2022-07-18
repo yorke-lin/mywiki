@@ -1,2 +1,2 @@
-- [elasticsearch](elasticsearch/index)
-- [logstash](logstash/index)
+- [elasticsearch](elasticsearch/index.md)
+- [logstash](logstash/index.md)

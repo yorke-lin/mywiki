@@ -1,3 +1,3 @@
-[Python](Python/index)
+[Python](Python/index.md)
 
-[Java](Java/index)
+[Java](Java/index.md)

@@ -1,1 +1,1 @@
-[Maven](Maven/index)
+[Maven](Maven/index.md)

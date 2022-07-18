@@ -1,15 +1,15 @@
-[编程语言基础](编程语言基础/index)
+[编程语言基础](编程语言基础/index.md)
 
-[报错记录](报错记录/index)
+[报错记录](报错记录/index.md)
 
-[java框架](java框架/index)
+[java框架](java框架/index.md)
 
-[工具链](工具链/index)
+[工具链](工具链/index.md)
 
-[网络基础](网络基础/index)
+[网络基础](网络基础/index.md)
 
-[游戏攻略](游戏攻略/index)
+[临时记录](临时记录.md)
 
-[临时记录](临时记录)
+[大数据](大数据/index.md)
 
-[大数据](大数据/index)
+[readme](README.md)

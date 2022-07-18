@@ -117,6 +117,14 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
     }
     
     /**
+     * 
+     */
+    @Override
+    public void configure(WebSecurity web) throws Exception {
+        web.ignoring().antMatchers("/js/**", "/css/**","/images/**");
+    }
+    
+    /**
      * 身份认证接口
      */
     @Override
@@ -128,3 +136,4 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
     }
 }
 ```
+
