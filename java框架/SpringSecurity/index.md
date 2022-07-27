@@ -99,12 +99,19 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
      */
     @Autowired
     private UserDetailsService userDetailsService;
+    
+    /**
+     * web静态访问路径配置
+     * @param web
+     * @throws Exception
+     */
+    @Override
+    public void configure(WebSecurity web) throws Exception {
+        web.ignoring().antMatchers("/js/**", "/css/**","/images/**");
+    }
 
     @Override
     protected void configure(HttpSecurity http) throws Exception {
-        http
-            // CSRF禁用，因为不使用session
-            .
     }
     
     /**
@@ -136,4 +143,4 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
     }
 }
 ```
-
+- 
